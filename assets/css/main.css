@@ -1078,6 +1078,23 @@ Location:
 .heading13 h5 img {
   margin: 0 4px 0 0;
 }
+.heading13 h3 {
+  color: var(--ztc-text-text-1);
+  font-family: var(--ztc-family-font1);
+  font-size: var(--ztc-font-size-font-s24);
+  font-style: normal;
+  font-weight: var(--ztc-weight-medium);
+  line-height: 30px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  color: var(--ztc-text-text-1);
+}
+.heading13 h3 img {
+  margin: 0 4px 0 0;
+  width: 50px;
+  height: 50px;
+}
 .heading13 h2 {
   color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
@@ -1536,7 +1553,7 @@ Location:
 }
 
 .vl-btn10 {
-  color: var(--ztc-text-text-2);
+  color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s20);
   font-style: normal;
@@ -1549,7 +1566,7 @@ Location:
   display: inline-block;
   border-radius: 60px;
   padding: 20px 26px;
-  background: var(--ztc-bg-bg-14);
+  background: var(--ztc-bg-bg-12);
   overflow: hidden;
 }
 .vl-btn10::after {
@@ -3501,6 +3518,15 @@ Location:
   height: 100%;
   z-index: -1;
   object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.878); /* Black with some transparency */
+  z-index: -1;
 }
 @media (max-width: 767px) {
   .hero8-slider-area {
@@ -12473,7 +12499,7 @@ Location:
   position: relative;
   z-index: 1;
   border-radius: var(--rounded-lg, 8px);
-  background: #232323;
+  background: #ffffff;
   padding: 32px;
 }
 .attent10-section-area .event6-widget-boxarea .img1 img {
@@ -12920,6 +12946,7 @@ Location:
 /*============= CHOOSE CSS AREA STARTS ===============*/
 .choose-section-area {
   position: relative;
+  padding: 50px;
   z-index: 1;
 }
 .choose-section-area .choose-widget-boxarea {
@@ -12932,6 +12959,7 @@ Location:
   padding: 28px;
   transition: all 0.4s;
   margin-bottom: 30px;
+  height: 90%;
 }
 .choose-section-area .choose-widget-boxarea:hover {
   transform: translateY(-5px);
@@ -14068,9 +14096,6 @@ Location:
   margin: 0 auto;
 }
 
-.brands5-section-area {
-  /* Keyframes for scrolling effect */
-}
 .brands5-section-area .marquee-container {
   overflow: hidden;
   white-space: nowrap;
@@ -16934,7 +16959,7 @@ Location:
 .contact8-bg-section {
   position: relative;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.023);
 }
 .contact8-bg-section .mapouter .gmap_canvas iframe {
   width: 47%;
@@ -20328,7 +20353,7 @@ Location:
   z-index: 1;
 }
 .about10-section-area .about10-images .img1 {
-  background: #484547;
+  background: #ffcece;
   border-radius: 50%;
   padding: 10px;
   overflow: hidden;
