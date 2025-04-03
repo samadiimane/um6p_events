@@ -22872,7 +22872,7 @@ Location:
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
+  padding-top: 15px;
   border-top: 1px solid rgba(56, 16, 112, 0.1);
 }
 @media (max-width: 767px) {
